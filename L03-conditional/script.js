@@ -101,7 +101,7 @@
 // console.log( 6 && 5 && undefined); // undefined
 // console.log( 3 && 2 && 8); // 8
 
-console.log( 1 || 5 || undefined); // 5
+//console.log( 1 || 5 || undefined); // 5
 
 
 
