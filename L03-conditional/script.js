@@ -73,6 +73,35 @@
 // console.log(Boolean(undefined)); // false
 // console.log(Boolean(NaN)); // false
 
+// And operator returns true if both the operands are true else it returns false
+
+// And operator it returns the first falsy value if any of the operand is falsy else it returns the last truthy value
+
+// console.log(true && false); // false
+// console.log(true && true); // true
+
+// Or operator returns true if any one of the operands is true else it returns false
+// Or operator it returns the first truthy value if any of the operand is truthy else it returns the last falsy value
+
+//console.log( null || 5 || undefined); // 1
+
+// console.log(true || false); // true
+// console.log(false || false); // false
+
+// ! not operator returns true if the operand is false and returns false if the operand is true
+
+// console.log(!true); // false
+// console.log(!false); // true
+
+// console.log(Boolean(1)); // true
+// console.log(Boolean([])); // true
+
+// console.log(1 && 3); //3
+
+// console.log( 6 && 5 && undefined); // undefined
+// console.log( 3 && 2 && 8); // 8
+
+console.log( 1 || 5 || undefined); // 5
 
 
 
