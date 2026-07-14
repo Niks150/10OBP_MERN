@@ -104,5 +104,67 @@
 //console.log( 1 || 5 || undefined); // 5
 
 
+//short circut works when a expression contain logical operator like && or || and it will return the value of the first operand that can determine the result of the expression
+
+// console.log( 1 && 5 && undefined); // undefined
+// console.log( 1 || 5 || undefined); // 1
+
+// let ans = 2 || 0 || 3 && 4;
+// console.log(ans);
+
+// If else statement ( conditional statement)
+
+// const age= 18;
+
+// if(age>=18){
+//     console.log("you are eligible")
+// }
+// else{
+//     console.log("ghar chala ja ");
+// }
+
+
+// now given a variable N if the given number is even print even otherwise odd
+
+//else if ladder states that
+
+//switch statement
+
+// const marks = 5;
+
+// switch(marks){
+//      case 1: {
+//         console.log("Mon");
+//         break;
+//      }
+//      case 2: {
+//         console.log("Tue");
+//         break;
+//      }
+//      case 3: {
+//         console.log("wed");
+//         break;
+//      }
+//      case 4: {
+//         console.log("Thru");
+//         break;
+//      }
+//      case 5: {
+//         console.log("Fri");
+//         break;
+//      }
+//      case 6: {
+//         console.log("Sat");
+//         break;
+//      }
+//      case 7: {
+//         console.log("Sun");
+//         break;
+//      }
+//      default :{
+//         console.log("Invalid number")
+//      }
+// }
+
 
 
