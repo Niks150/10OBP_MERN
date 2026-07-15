@@ -128,37 +128,76 @@
 
 //else if ladder states that
 
+//Nested if
+
+// const age =20, dl= true;
+
+// if(age >=18){
+//     if(dl== true){
+//         console.log("person is eligible");
+    
+//     }
+//     else{
+//         console.log("person is not eligible");
+//     }
+// }
+// else{
+//     console.log("you are under age ");
+// }
+
+
 //switch statement
 
-// const marks = 5;
+//  const months = 12;
 
-// switch(marks){
+
+// switch(months){
 //      case 1: {
-//         console.log("Mon");
+//         console.log("jan");
 //         break;
 //      }
 //      case 2: {
-//         console.log("Tue");
+//         console.log("Feb");
 //         break;
 //      }
 //      case 3: {
-//         console.log("wed");
+//         console.log("Mar");
 //         break;
 //      }
 //      case 4: {
-//         console.log("Thru");
+//         console.log("April");
 //         break;
 //      }
 //      case 5: {
-//         console.log("Fri");
+//         console.log("May");
 //         break;
 //      }
 //      case 6: {
-//         console.log("Sat");
+//         console.log("Jun");
 //         break;
 //      }
 //      case 7: {
-//         console.log("Sun");
+//         console.log("July");
+//         break;
+//      }
+//      case 8:{
+//         console.log("Aug");
+//         break;
+//      }
+//      case 9:{
+//         console.log("sept");
+//         break;
+//      }
+//      case 10:{
+//         console.log("Oct");
+//         break;
+//      }
+//      case 11:{
+//         console.log("Nov");
+//         break;
+//      }
+//      case 12:{
+//         console.log("Dec");
 //         break;
 //      }
 //      default :{
@@ -166,5 +205,92 @@
 //      }
 // }
 
+// switch case without break keyword
+
+// const num=1;
+
+// switch(num){
+//     case 1:{
+//         console.log(`Number is ${num}`);
+//         }
+//     case 2:{
+//         console.log(`Number is ${num}`);
+//         }
+//     default:{
+//         console.log(`Numbers is ${num}`);
+//     }
+// }
+
+// when we need to inform smae action on diff value
+
+// let n=4;
+
+// switch(n){
+//     case 1:
+//     case 2:
+//         console.log("Number is either 1 or 2");
+//         break;
+//     case 3:
+//     case 4:
+//         console.log("Number is either 3 or 4");
+//         break;
+//     default:
+//         console.log("Invalid number ");
+//         break;
+// }
+
+//Ternery operator
+
+//const n = 18;
+
+//Syntax
+
+//condition ? expressionIfTrue : expressionIfFalse;
+
+//(n>=18)?console.log("you are eligible"):console.log("Not eligible"); 
+
+//approach 2
+
+// const a=2;
+
+// let isEligible = a>=18?console.log("you are eligible"):console.log("Not eligible");
+// const EvenOdd = a%2==0?"Number is prime":"Number is Odd";
+// console.log(EvenOdd);
+
+//nested turney condition 
+
+// const age=18,dl=true;
+
+// if(age>=18){
+
+//     if(dl==true){
+//         console.log("You are eligible to drive");
+//     }
+//     else{
+//         console.log("You are not eligible to drive");
+//     }
+// }
+// else{
+//     console.log("You are under age ");
+// }
+
+//Nested turney
+
+//const age = 18 ,dl= true;
+
+//age>=18 && dl==true?console.log("You are eligible to drive"):console.log("You are not eligible to drive");
+
+//age>=18?dl==true?console.log("you are eligible"):console.log("not eligible"):console.log("under age");
 
 
+//given three variable which is largst
+
+//const a=1,b=2,c=3;
+
+// if (a >= b && a >= c) {
+//     console.log(a + " is the largest");
+// } else if (b >= a && b >= c) {
+//     console.log(b + " is the largest");
+// } else {
+//     console.log(c + " is the largest");
+// }
