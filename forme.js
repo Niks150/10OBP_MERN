@@ -147,3 +147,55 @@ console.log(`Hello my name is ${name}`); // we use backtags for the string inter
 //   }      //
 // }
 
+// let months=7;
+
+// switch(months){
+//   case 1:
+//   case 2:
+//   case 3:
+//     console.log("Quarter 4");
+//     break;
+//   case 4:
+//   case 5:
+//   case 6:
+//     console.log("Quarter 3");
+//     break;
+//     case 7:
+//   case 8:
+//   case 9:
+//     console.log("Quarter 2");
+//     break;
+//   case 10:
+//   case 11:
+//   case 12:
+//     console.log("Quarter 1");
+//     break;
+//   default:{
+//     console.log("Invalid");
+//     break;
+//   }
+// }  approach 2
+
+// let month = 7;
+
+// switch (true) {
+//   case (month >= 1 && month <= 3):
+//     console.log("Quarter 4");
+//     break;
+
+//   case (month >= 4 && month <= 6):
+//     console.log("Quarter 3");
+//     break;
+
+//   case (month >= 7 && month <= 9):
+//     console.log("Quarter 2");
+//     break;
+
+//   case (month >= 10 && month <= 12):
+//     console.log("Quarter 1");
+//     break;
+
+//   default:
+//     console.log("Invalid");
+// }
+
