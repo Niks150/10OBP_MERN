@@ -21,12 +21,129 @@ console.log(`Hello my name is ${name}`); // we use backtags for the string inter
 
  */
 
- //----------------Math-----------------
+//----------------Math-----------------
 
 // console.log(Math.ceil(a)); // 26
 // console.log(Math.floor(4.4)); //4
 
 
-let a;
-a=a+5;
-console.log(a);
+// const N=13;
+
+// switch(N){
+
+//     case 12:{
+//       console.log("I am even");
+//       break;
+//     }
+//     case 13:{
+//       console.log("I am prime");
+//       break;
+//     }
+//     case 25:{
+//       console.log("I am odd");
+//       break;
+//     }
+//     default:{
+//       console.log("I am just a number");
+//       break;
+//     }
+//   }
+
+// const readline = require('readline').createInterface({
+//   input: process.stdin,
+//   output: process.stdout
+// });
+
+// readline.question('', input => {
+//   const [a, b,c] = input.split(' ').map(Number);
+
+//   console.log(a+b);
+//   console.log(a-b);
+//   console.log(a*b);
+//   console.log(Math.floor(a/b));
+//   console.log(a%b);
+
+
+
+//   readline.close();
+// });
+
+// let a=1;
+// let b=2
+// a = a + b;
+// b =  a - b;
+// a = a - b;
+// console.log("a"+a);
+// console.log("b"+b); //swap using without third variable 
+
+
+// let c=27;
+
+// let F= (c * 9 / 5) + 32;
+// console.log(F.toFixed(6)) // covert c to f
+
+// const s= "qwer"
+
+// console.log(s.length);// find the leength of the given string
+
+// let a=1,b=3;
+
+// if(a>b){
+//   console.log("A is greatest of all time");
+// }
+// else{
+//   console.log("B is greatest of all time"); //comparing 2 number which is greatest 
+// }
+
+// let a=10,b=2,c=8;
+
+// if(a>=b && a>=c){
+//   console.log("a is greatest of all time");
+// }
+// else if(b>=a && b>=c){
+//   console.log("b is greatest of all time");
+
+// }
+// else{
+//   console.log("C is greates of all time")
+// } // comparing which is greates of all time using 3 variable 
+
+// let marks = 69;
+
+// switch (true) {
+//   case (marks > 90): console.log("Grade A");
+//     break;
+//   case(marks <= 90 && marks>70):{
+//     console.log("Grade B");
+//     break;
+//   }
+//   case (marks<=70 && marks>=50):{
+//     console.log("Grade c");
+//     break;
+//   }
+//   case (marks<50):{
+//     console.log("Fail")
+//     break;
+//   }
+//   default:{
+//     console.log("invalid input")
+//     break;
+//   }
+// } //grade student using switch case
+
+//
+
+// let age=20,dl=false;
+ 
+// switch(true){
+//   case (age>=18 && dl==true):
+//     {
+//       console.log("Eligible");
+//       break;
+//     }
+//   default:{
+//     console.log("Not eligible");
+//     break;
+//   }      //
+// }
+
