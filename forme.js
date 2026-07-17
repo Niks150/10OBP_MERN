@@ -134,7 +134,7 @@ console.log(`Hello my name is ${name}`); // we use backtags for the string inter
 //
 
 // let age=20,dl=false;
- 
+
 // switch(true){
 //   case (age>=18 && dl==true):
 //     {
@@ -199,3 +199,30 @@ console.log(`Hello my name is ${name}`); // we use backtags for the string inter
 //     console.log("Invalid");
 // }
 
+
+const readline = require('readline').createInterface({
+    input: process.stdin,
+    output: process.stdout
+});
+
+readline.question('', input => {
+    const d = Number(input);
+
+    years = Math.floor(d / 356);
+    remaining = d % 365;
+    months = Math.floor(remaining / 30);
+    days = remaining % 30;
+
+    // years = Math.floor(d / 365);
+
+    // remaining = d % 365;
+
+    // months = Math.floor(remaining / 30);
+
+    // days = remaining % 30;
+
+
+    console.log(`${years} Years, ${months} months, ${days} days`)
+
+    readline.close();
+});
