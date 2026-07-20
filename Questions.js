@@ -39,13 +39,61 @@
 
 //======2======//
 
-let num = 12345;
-let reversed = 0;
+// let num = 12345;
+// let reversed = 0;
 
-while (num != 0) {
-    num % 10;              // Get last digit
-    reversed = reversed * 10 + digit;  // Add digit to reversed number
-    num = Math.floor(num / 10);        // Remove last digit
+// while (num != 0) {
+//     num % 10;              // Get last digit
+//     reversed = reversed * 10 + digit;  // Add digit to reversed number
+//     num = Math.floor(num / 10);        // Remove last digit
+// }
+
+// console.log(reversed);
+
+//Sum of the digits.
+
+// let num= 123;
+// let sum = 0;
+// while(num !=0){
+//     let last_digit = num % 10;
+//     sum = sum + last_digit;
+//      num = Math.floor(num/10);
+// }
+// console.log(sum)
+
+// count of the number
+
+// let num = 123;
+// let count = 0;
+// while(num != 0){
+//     let last_digit = num % 10;
+//      count++
+//      num = Math.floor(num);
+
+// }
+// console.log(count)
+
+//Break and Continue
+
+// for(let i=0; i<=10;i++){
+//     console.log(i);
+    
+//         break
+    
+// }
+
+//continue :- It will stop the execution code after contion beacome true for the perticular condtion
+
+// for(let i= 1 ; i<=10;i++){
+//     if(i==4 || i==6){
+//         continue
+//     }
+//     console.log(i)
+// }
+
+for(let i=3;i<=10;i++){
+    if(i%3==0){
+        continue;
+    }
+    console.log(i)
 }
-
-console.log(reversed);
