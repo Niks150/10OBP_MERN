@@ -200,29 +200,49 @@ console.log(`Hello my name is ${name}`); // we use backtags for the string inter
 // }
 
 
-const readline = require('readline').createInterface({
-    input: process.stdin,
-    output: process.stdout
-});
+// const readline = require('readline').createInterface({
+//     input: process.stdin,
+//     output: process.stdout
+// });
 
-readline.question('', input => {
-    const d = Number(input);
+// readline.question('', input => {
+//     const d = Number(input);
 
-    years = Math.floor(d / 356);
-    remaining = d % 365;
-    months = Math.floor(remaining / 30);
-    days = remaining % 30;
+//     years = Math.floor(d / 356);
+//     remaining = d % 365;
+//     months = Math.floor(remaining / 30);
+//     days = remaining % 30;
 
-    // years = Math.floor(d / 365);
+//     // years = Math.floor(d / 365);
 
-    // remaining = d % 365;
+//     // remaining = d % 365;
 
-    // months = Math.floor(remaining / 30);
+//     // months = Math.floor(remaining / 30);
 
-    // days = remaining % 30;
+//     // days = remaining % 30;
 
 
-    console.log(`${years} Years, ${months} months, ${days} days`)
+//     console.log(`${years} Years, ${months} months, ${days} days`)
 
-    readline.close();
-});
+//     readline.close();
+// });
+
+
+function signIn(username="sandeep",password=20){
+    
+        if(username=="sandeep" && password==20)
+        console.log("Welcome")
+        else
+        console.log("Wrong username or password")
+}
+
+signIn("sandeep",20)
+
+function factorial(n) {
+    let fact = 1;
+
+    
+    return fact;
+}
+
+console.log(factorial(5)); // 120

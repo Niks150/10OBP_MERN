@@ -91,9 +91,32 @@
 //     console.log(i)
 // }
 
-for(let i=3;i<=10;i++){
-    if(i%3==0){
-        continue;
-    }
-    console.log(i)
-}
+
+// let i = 1
+// do {
+//     console.log(i)
+//     i++
+// } while (i <= 5);
+
+// for (let i = 1; i <= 50; i++) {
+//     if (i % 2 == 0) {
+//         continue;
+//     }
+//     else if (i == 35) {
+//         break;
+//     }
+//     console.log(i)
+// }
+
+// for (let i = 1; i <= 5; i++) {
+//     if (i==1 || i==2) {
+//         break;
+//     }
+//     console.log(i)
+    
+// }
+
+// let a =2,b=3,c;
+// c=a+b;
+// console.log(c)
+
