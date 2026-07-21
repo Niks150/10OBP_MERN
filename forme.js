@@ -228,21 +228,31 @@ console.log(`Hello my name is ${name}`); // we use backtags for the string inter
 // });
 
 
-function signIn(username="sandeep",password=20){
+// function signIn(username="sandeep",password=20){
     
-        if(username=="sandeep" && password==20)
-        console.log("Welcome")
-        else
-        console.log("Wrong username or password")
+//         if(username=="sandeep" && password==20)
+//         console.log("Welcome")
+//         else
+//         console.log("Wrong username or password")
+// }
+
+// signIn("sandeep",20)
+
+// function factorial(n) {
+//     let fact = 1;
+
+    
+//     return fact;
+// }
+
+// console.log(factorial(5)); // 120
+
+function isPrime(i){
+ isPrime= true;
+    if(i%n==0){
+        isPrime=false;
+        break;
+    }
+
 }
 
-signIn("sandeep",20)
-
-function factorial(n) {
-    let fact = 1;
-
-    
-    return fact;
-}
-
-console.log(factorial(5)); // 120
