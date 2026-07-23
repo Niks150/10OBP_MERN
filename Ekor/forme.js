@@ -247,12 +247,41 @@ console.log(`Hello my name is ${name}`); // we use backtags for the string inter
 
 // console.log(factorial(5)); // 120
 
-function isPrime(i){
- isPrime= true;
-    if(i%n==0){
-        isPrime=false;
-        break;
-    }
+// function isPrime(i){
+//  isPrime= true;
+//     if(i%n==0){
+//         isPrime=false;
+//         break;
+//     }
 
+// }
+
+
+
+const readline = require('readline').createInterface({
+  input: process.stdin,
+  output: process.stdout
+});
+
+readline.question('', n => {
+  readline.question('', r => {
+    console.log(solve(parseInt(n), parseInt(r)));
+    readline.close();
+  });
+});
+
+function solve(n, r) {
+  let npr = factorial(n) / factorial(n - r);
+  return npr;
+}
+
+function factorial(num) {
+  let fact = 1;
+
+  for (let i = 1; i <= num; i++) {
+    fact = fact * i;
+  }
+
+  return fact;
 }
 

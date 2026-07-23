@@ -120,3 +120,70 @@
 // c=a+b;
 // console.log(c)
 
+// function checkFactorial(n,r){
+//     let npr = factorial(n)/factorial(n-r);
+//     return npr;
+// }
+
+
+// function factorial(num){
+
+//     let fact = 1;
+
+//     for(let i =1 ; i<=num; i++){
+//         fact *= i;
+//     }
+//     return fact;
+// }
+
+// console.log(checkFactorial(5, 2));
+// const readline = require('readline').createInterface({
+//   input: process.stdin,
+//   output: process.stdout
+// });
+
+// readline.question('', n => {
+// 	n = parseInt(n);
+
+// 	let sum=0;
+	
+// 	for(let i = 1 ; i <= n ; i++)
+// 	{
+// 		if(i % 2 == 0){
+			
+// 			sum+=i;
+// 		}
+		
+// 	}
+// 	console.log(sum)
+// 	readline.close();
+// });
+ 
+// new Question
+
+// const { count } = require('console');
+// const readline = require('readline');
+// const { isNumberObject } = require('util/types');
+
+// const rl = readline.createInterface({
+//   input: process.stdin,
+//   output: process.stdout
+// });
+
+// function numDigits(num){
+//   num = Number(num);
+// 	let count = 0;
+// 	while(num != 0){
+
+// 	count ++;
+// 	num = Math.floor(num / 10); 
+//   }
+//   return count
+// }
+
+
+// rl.on('line', (n) => {
+//   console.log(numDigits(parseInt(n)));
+//   rl.close();
+// });
+

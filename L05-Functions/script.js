@@ -56,5 +56,5 @@ function primeSum(n) {
   return sum;
 }
 
-console.log(primeSum(10));
+console.log(primeSum(15));
 
