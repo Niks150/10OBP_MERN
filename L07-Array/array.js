@@ -1,7 +1,7 @@
 // let Arr = [1,2,3,4];
 // console.log(Arr[2]);
 
-const { useActionState } = require("react")
+
 
 // let student = [1,2,3,4];
 // let sum = 0;
@@ -103,3 +103,43 @@ const { useActionState } = require("react")
 // arr.splice(1,0,4,3)
 // console.log(arr)
 
+// let arr = [1,2,3,4,5]
+// // console.log(arr.reverse());
+// let n = arr.length;
+// for(let i = 0 ; i < arr.length/2; i++){
+//     let temp = arr[i]
+//     arr[i] = arr[n-i-1]
+//     arr[n-i-1] = temp
+// }
+// console.log(arr)
+
+
+
+// const arr = [1,2,3,4,5]
+
+// console.log(arr.indexOf(2))
+
+// const arr = [1,2,3,4,5]
+
+// given an array and two number find the number of item between given two values in the array 
+
+// const arr = [1,3,4,6,9,10]
+
+// let a = 3 
+// let b = 10;
+// console.log(arr.indexOf(b)-arr.indexOf(a)-1);
+
+// const arr = [1,1,2,1,2]
+
+// console.log(arr.lastIndexOf(3)) //The value to locate in the array.// Returns the index of the last occurrence of a specified value in an array, or -1 if it is not present.
+
+// const arr = [1,2,3,4]
+
+// console.log(arr.includes(4))
+
+//reverse 
+
+// const arr = [1,2,3]
+// arr.reverse()
+// console.log(arr)
+ 
