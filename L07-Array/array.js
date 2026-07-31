@@ -142,4 +142,65 @@
 // const arr = [1,2,3]
 // arr.reverse()
 // console.log(arr)
+
+
+//  let arr = [1,2,1]
+
+// let newArr = [];
+
+// for(let i = arr.length-1;i>=0 ; i++){
+//     newArr.push(arr[i])
+// }
+
+// let isPalindrom = true;
+
+// for(let i = 0 ; i< arr.length ; i++){
+//     if(arr[i]!=newArr[i]){
+//         isPalindrom = flase
+//     }
+// }
+// console.log(isPalindrom)
+
+//Shallow copy
+
+// let arr = [1,2,3,[4,5]]
+
+// let newArr = arr.slice()
+
+// newArr[3].push(5); 
+// console.log(arr) //[ 1, 2, 3, [ 4, 5, 5 ] ]
+// console.log(newArr) //[ 1, 2, 3, [ 4, 5, 5 ] ]
+
+// let arr = [1,2,[5,8,6]];
+
+// let newArr = arr.slice(1);
+
+// newArr.push(6);
+// arr[2].push(9);
+
+
+// console.log(arr);
+// console.log(newArr);
+
+//start 
+
+// let arr = [1,2,3]
+
+// let arr2 = [8,...arr]
+
+// console.log(arr2)
+
+//array destructuring 
+
+// let arr = [1,2,3];
  
+// let [a,b,c] = arr
+
+// console.log(a,b,c)
+
+// let arr = [1,2,3]
+// let [a,b,c,d] = arr;
+// console.log(a,b,c,d) //1 2 3 undefined
+
+//rest operator
+

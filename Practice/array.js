@@ -96,5 +96,129 @@
 // arr.fill(0)             // Returns: [0], arr = [0]
 // arr.copyWithin(1, 3)    // Returns: [0] (no change because index 3 doesn't exist)
 
+/*==============================================================================================*/
+
+// Array.isArray([1, 2, 3]);      // true
+// // Checks whether the value is an array.
+
+// Array.from("Hello");
+// // ['H', 'e', 'l', 'l', 'o']
+// // Converts an iterable or array-like object into an array.
+
+// Array.from(new Set([1, 2, 2, 3]));
+// // [1, 2, 3]
+// // Converts a Set into an array.
+
+// Array.of(1, 2, 3);
+// // [1, 2, 3]
+// // Creates a new array from the given arguments.
+
+// Array.of(5);
+// // [5]
+// // Creates an array with one element (unlike new Array(5)).
+
+// Array(5);
+// // [ <5 empty items> ]
+// // Creates an empty array of length 5.
+
+// Array.from({ length: 5 });
+// // [undefined, undefined, undefined, undefined, undefined]
+// // Creates an array from an array-like object.
+
+// Array.from({ length: 5 }, (_, i) => i + 1);
+// // [1, 2, 3, 4, 5]
+// // Creates and fills an array using a mapping function.
+
 /*========================= Done ==================*/
+
+//Question 1  Sum of array
+
+// const arr = [1, 2, 3 ,4 ,5]
+
+// let sum = 0 ;
+
+// for (let i = 0 ; i< arr.length; i++){
+//     sum+=arr[i]
+// }
+// console.log(sum)
+
+//Question 2 Largest and smallest element
+
+// let arr = [5,7,6,8,5]
+
+// let maxValue = 0
+
+// for(let i = 1 ; i< arr.length ;i++){
+//     if(arr[i]> maxValue){
+//         maxValue = arr[i]
+//     }
+// }
+// console.log(maxValue)
+
+
+// Question 3 reverse an array
+// const arr = [1,2,3,4]
+
+// console.log(arr.reverse())
+
+//Question 4 Count even and odd elements
+// const arr = [1,2,3,4,8,10]
+// let evenCount = 0;
+// let oddCount = 0;
+
+// for(let i = 0 ; i<arr.length;i++){
+//     if (arr[i]%2==0){
+//         evenCount ++;
+//     }
+//     else if (arr[i]%2==1){
+//         oddCount ++;
+//     }
+//     else {
+//         console.log("Invalid number ")
+//     }
+// }
+// console.log(`Even count is ${evenCount} and odd count is ${oddCount}`)
+
+// let arr = [8,7,56,4,8,5]
+
+// let largest = 0;
+// let secondLargest = 0;
+
+// for(let i = 0 ; i< arr.length; i++){
+//     if(arr[i]>largest){
+//         secondLargest = largest;
+//         largest = arr[i]
+//     }
+//     else if(arr[i]>largest){
+//         largest = arr[i]
+//     }
+
+// }
+// console.log(secondLargest);
+// console.log(largest)
+
+let arr = [1,2,3]
+
+let sum = 0;
+let avg = 0;
+let maximu = 0;
+
+for(let i = 0 ; i< arr.length;i++){
+    sum += arr[i]
+    avg = sum/arr[i];
+    if(arr[i]>maximu){
+        maximu = arr[i]
+    }
+}
+console.log(avg,sum,maximu)
+
+
+
+
+
+
+
+
+
+
 
