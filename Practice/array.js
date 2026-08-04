@@ -179,46 +179,61 @@
 // }
 // console.log(`Even count is ${evenCount} and odd count is ${oddCount}`)
 
-// let arr = [8,7,56,4,8,5]
+let arr = [8,7,56,4,8,5]
 
-// let largest = 0;
-// let secondLargest = 0;
+let largest = 0;
+let secondLargest = 0;
 
-// for(let i = 0 ; i< arr.length; i++){
-//     if(arr[i]>largest){
-//         secondLargest = largest;
-//         largest = arr[i]
-//     }
-//     else if(arr[i]>largest){
-//         largest = arr[i]
-//     }
-
-// }
-// console.log(secondLargest);
-// console.log(largest)
-
-let arr = [1,2,3]
-
-let sum = 0;
-let avg = 0;
-let maximu = 0;
-
-for(let i = 0 ; i< arr.length;i++){
-    sum += arr[i]
-    avg = sum/arr[i];
-    if(arr[i]>maximu){
-        maximu = arr[i]
+for(let i = 0 ; i< arr.length; i++){
+    if(arr[i]>largest){
+        secondLargest = largest;
+        largest = arr[i]
+    }
+    else if(arr[i]>largest){
+        largest = arr[i]
     }
 }
-console.log(avg,sum,maximu)
+
+// }
+console.log(secondLargest);
+console.log(largest)
 
 
+//Question
+// let arr = [1,2,3]
+// let sum = 0;
+// let avg = 0;
+// let maximu = 0;
+
+// for(let i = 0 ; i< arr.length;i++){
+//     sum += arr[i]
+//     avg = sum/arr[i];
+//     if(arr[i]>maximu){
+//         maximu = arr[i]
+//     }
+// }
+// console.log(avg,sum,maximu)
 
 
+//Question 
+// let arr = [1 ,2 ,3 ,-1]
+// let mul = 1
+// for(let i = 1 ; i< arr.length;i++){
+//       mul *= arr[i]
+// }
+// console.log(mul)
 
 
+//Question 
+// let arr = ["santa" , "manta" , "ramuuu"]
 
+// let longest = arr[0];//////////////Find the longest string in the array
 
+// for(let i = 0 ; i < arr.length ; i++){
+//     if(arr[i].length > longest.length){
+//         longest = arr[i]
+//     }
+// }
 
-
+// console.log(longest)
 
