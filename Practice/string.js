@@ -170,11 +170,121 @@
 // console.log(str.indexOf("n"))
 // console.log(str.toUpperCase()) // convert the string into upper and lower case 
 
-const  str = "sandeep"
+// const  str = "sandeep"
 
-console.log(str.substring(0,2)) 
+// console.log(str.substring(0,2)) 
 
-console.log(str.slice(0,2)) // slice and substring are same but slice can take negative index but substring cannot take negative index
+// console.log(str.slice(0,2)) // slice and substring are same but slice can take negative index but substring cannot take negative index
 
-const str = "   hello   "
-console.log(str.trim()) // remove the white spaces from the start and end of the string 
+// const str = "   hello   "
+// console.log(str.trim()) // remove the white spaces from the start and end of the string 
+
+//given a string split the string in to the array of words without using the split method
+
+
+// let srt = "this word is so much polluted"
+// let arr = []
+// let temp = ""
+// for(let i = 0 ; i < srt.length ; i++)
+// {
+//     if(srt[i] == " ")
+//     {
+//         arr.push(temp)
+//         temp = ""
+//     }
+//     else
+//     {
+//         temp += srt[i]
+//     }
+// }
+// console.log(arr)
+
+// const res = srt.split(" ")
+// console.log(res)
+// console.log(srt.replace(" ", "-"))
+// console.log(srt.split(" ",3))
+
+// let str = "this word is so much polluted"
+
+// function reverseWords(str) {
+//     // 
+//     let rev = ""
+
+//     for(let i = str.length -1 ; i>=0 ; i--){
+//         rev+=str[i]
+//     }
+//     return rev
+// }
+// console.log(reverseWords(str))
+
+// function reverseWords(str) {
+//     return str.split(" ").reverse().join(" ")
+// }
+// console.log(reverseWords(str))
+
+// join() : is a method that joins all the elements of an array into a string. It takes one parameter, 
+// which is the separator to use between the elements. 
+// The default separator is a comma (,).
+
+// let arr = ["this", "word", "is", "so", "much", "polluted"]
+// console.log(arr.join(" ")) // this word is so much polluted
+
+// let str = "this word is so much polluted"
+// let s = str.split(" ")
+// let r = s.reverse()
+// let j = r.join(" ")
+// console.log(j)
+
+// const str = "       this word is so much polluted"
+
+// console.log(str.trimStart())
+
+//PADSTART : is a method that pads the current string with another string (multiple times, if needed) until the resulting string reaches the given length.
+// The padding is applied from the start of the current string.
+
+// const str = "check"
+// console.log(str.padStart(3, "0")) // "005"
+
+// let str2 = "check"
+// console.log(str2.padEnd(10, "0")) // "00000check"
+
+// let str3 = "hello"
+// console.log(str3.padEnd(7, "-"))
+
+//  ascii value of A is 65 and a is 97
+//  ascii value of Z is 90 and z is 122
+
+//charCodeAt() : is a method that returns the character at the specified index in a string. 
+// It takes one parameter, which is the index of the character to return.
+
+// let str = "hello"
+// console.log(str.charCodeAt(0)) // 104
+
+//fromCharCode() : is a method that returns a string created from the specified sequence of UTF-16 code units.
+
+// console.log(String.fromCharCode(104)) // h
+
+//print the alphabate from b to f
+// for(let i = 98; i <= 102; i++){
+//     console.log(String.fromCharCode(i));
+// }
+
+// let str = ""
+// for(let i = 103; i >= 98 ; i--){
+//    str += String.fromCharCode(i);
+// }
+// console.log(str) //gfedcba
+
+// let str = "tiger is running"
+
+// function reverseWords(str) {
+    
+//     let rev = ""
+
+//     for(let i = str.length -1 ; i>=0 ; i--){
+//         rev+=str[i]
+//     }
+//     return rev
+// }
+// console.log(reverseWords(str))
+
