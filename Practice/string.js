@@ -288,3 +288,24 @@
 // }
 // console.log(reverseWords(str))
 
+// let arr = [1, 2, 3, 4, 5, 6];
+
+//     let evenArr = [];
+//     let oddArr = [];
+
+//     for (let i = 0; i < arr.length; i++) {
+//         if (arr[i] % 2 == 1) {
+//             evenArr.push(arr[i]);
+//         } else {
+//             oddArr.push(arr[i]);
+//         }
+//     }
+
+//     let fullArr = evenArr.concat(oddArr);
+
+// console.log(fullArr);
+
+
+let s = 68
+
+console.log(String.fromCharCode(s));
