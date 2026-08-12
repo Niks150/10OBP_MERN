@@ -266,22 +266,22 @@
 
 //Create a accio library
 
-let library = {
-  insName : "AccioCentre",
-  location : "Pune",
-  book :[ {
-    bookName : "HTML",
-    issuedDate : "4th dec",
-    author : "sharma"
-  },{
-    bookName : "css",
-    issuedDate : "5th dec"
-  },{
-    bookName : "javascript",
-    issuedDate : "9th dec",
-    author:"sharma"
-  }]
-}
+// let library = {
+//   insName : "AccioCentre",
+//   location : "Pune",
+//   book :[ {
+//     bookName : "HTML",
+//     issuedDate : "4th dec",
+//     author : "sharma"
+//   },{
+//     bookName : "css",
+//     issuedDate : "5th dec"
+//   },{
+//     bookName : "javascript",
+//     issuedDate : "9th dec",
+//     author:"sharma"
+//   }]
+// }
 // console.log(accio)
 
 //print all the book name 
@@ -326,145 +326,59 @@ let library = {
 
 // console.log(library)
 
+//Arrays of the object
 
-//Print the following pattern 
+// let library = [
+//  {
+//     bookName : "HTML",
+//     issuedDate : "4th dec",
+//     author : "sharma"
+//   },{
+//     bookName : "css",
+//     issuedDate : "5th dec"
+//   },{
+//     bookName : "javascript",
+//     issuedDate : "9th dec",
+//     author:"sharma"
+  
+// }]
+
+// for(let books of library){
+//   console.log(books.bookName)
+// }
 
 
-// let n = 3;
-// for( let i = 0 ; i <= n ; i++){
-//   let row = ""
-//   for(let j = 0 ; j <=i ; j++){
-//     row+="*"
+//print the frequency of the follwing array
+
+// let arr = [1,2,3,3,2]
+// let obj = {}
+// for(let i = 0 ; i < arr.length ; i++){
+//   if(arr[i] in obj == false){
+//     obj[arr[i]] =1
 //   }
-//   console.log(row)
-
-//output
-// *
-// **
-// ***
-
-// }
-// let n = 4
-//   for(let i = 1 ; i <= n ; i++){
-//     let row = ""
-//       for(let j = 1 ; j <= i ; j++)
-//       {
-//         row += String.fromCharCode(65+(i+j-2)%26)
-//       }
-//       console.log(row)
+//   else{
+//     obj[arr[i]]++
 //   }
-
-//output
-// A
-// BC
-// CDE
-// DEFG
-// EFGHI
+// }
+// console.log(obj)
 
 
-//  let n = 4;
+// let students = [
+//   {name:"Abhishek",grade:"A"},
+//   {name:"Rakhi",grade:"b"},
+//   {name:"Naman",grade:"A"},
+//   {name:"Raman",grade:"c"}
 
-//  for(let i = 0 ; i <= n ; i++){
-//     let row = ""
-//     for(let j = 0 ; j <= n ; j++){
-//       row+="*"
-//     }
-//     console.log(row)
-//  }
+// ]
+// let resl = {}
 
-//  o/p :- 
-// *****
-// *****
-// *****
-// *****
-// *****
-
-// let n = 4;
-
-// for(let i = 0 ; i < n ; i++){
-//   let row = "";
-//     for(let j = i ; j < n ; j++){
-//       row+="*"
-//     }
-//     console.log(row)
-    
+// for(let student of students){
+//   if(student.grade in resl){
+//     resl[student.grade].push(student.name)
 //   }
-
-// o/p 
-// ****
-// ***
-// **
-// *
-
-// let n = 4;
-
-// for(let i = 0 ; i <= n ; i++){
-//   let row = "";
-//     for(let j=0 ; j<=n ; j++){
-//       row+= String.fromCharCode(97+i)
-//     }
-//     console.log(row)
-// }
-//output
-// aaaaa
-// bbbbb
-// ccccc
-// ddddd
-// eeeee
-
-// let n = 4;
-
-// for(let i = 0 ; i <= n ; i++){
-//   let row = "";
-//     for(let j=i ; j <= n ; j++){
-//       row+= String.fromCharCode(65+i)
-//     }
-//     console.log(row)
-// }
-
-// for(let i = 0 ; i <= n ; i++){
-//   let row = "";
-//     for(let j=0 ; j <= n ; j++){
-//       row+= String.fromCharCode(65+i)
-//     }
-//     console.log(row)
-// }
-// for(let i = 0 ; i <= n ; i++){
-//   let row = "";
-//     for(let j=i ; j <= n ; j++){
-//       row+= String.fromCharCode(65+i)
-//     }
-//     console.log(row)
-// }
-
-// let n = 4;
-
-// for(let i = 1 ; i <= n ; i++){
-//   let row = "";
-//     for(let j = 1 ; j <= i ; j++){
-//       row+=i
-//     }
-//     console.log(row)
+//   else{
+//     resl[student.grade]=[student.name];
 //   }
-
-// 1
-// 22
-// 333
-// 4444
-
-
-// let n = 4;
-
-// for(let i = 1 ; i <= n ; i++){
-//   let row = "";
-//     for(let j = 1 ; j <= i ; j++){
-//       row+=(j)
-
-//     }
-//     console.log(row)
 // }
+// console.log(resl)
 
-// 1
-// 12
-// 123
-// 1234
