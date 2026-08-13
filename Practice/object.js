@@ -1,5 +1,7 @@
 // in this will learn about the object in javascript
 
+// const { use, useReducer } = require("react")
+
   // we can access the key using the dot notation and bracket notation
 
 //   let chair = {
@@ -382,3 +384,166 @@
 // }
 // console.log(resl)
 
+//extraxt the value of the object in to varibales
+
+//object destructuring
+
+// let person = {
+//   name:"naman",
+//   age : 20
+// }
+// let{name,age}=person;
+// console.log(name,age)
+
+//ReName the variable 
+// let {name:firstName,age:currentAge} = person;
+
+// console.log(firstName,currentAge)
+
+/////  sumofbooks
+// let sum = 0;
+// let arr = [
+//   { title: "Book 1", price: 10 },
+//   { title: "Book 2", price: 20 },
+//   { title: "Book 3", price: 30 }
+// ]
+
+// for(let element of arr){
+//   sum+=element.price
+// }
+// console.log(sum)
+
+// let school = [
+//   {name:"DPS",location:"pune"},
+//   {name:"BPS",location:"banglore"},
+//   {name:"Ambe",location:"Kasol"},
+//   {name:"BAPS",location:"vadodara"},
+// ]
+
+// for(let elem of school){
+//   console.log(elem.name) /// use to extract all the name 
+// }
+
+// for(let element of school){
+//   console.log(element.location+"-"+element.name)
+// } 
+// o/p -> pune-DPS
+// banglore-BPS
+// Kasol-Ambe
+// vadodara-BAPS
+
+// for(let element of school){
+//   if(element.name == "BPS"){
+//     delete element.name
+//   }
+//   else if(element.location == "pune"){
+//     element.bookName = "HTML"
+//   }
+//   else if(element.location == "pune" || element.name == "BAPS"){
+//     delete element.location
+//     // element.location = "Hydrabad"
+//   }
+// }
+// console.log(school)
+
+// o/p -> [
+//   { name: 'DPS', location: 'pune', bookName: 'HTML' },
+//   { location: 'banglore' },
+//   { name: 'Ambe', location: 'Kasol' },
+//   { name: 'BAPS', location: 'vadodara' }
+// ]
+
+
+//Group By city
+
+// let person =[
+//   {name:"Abhishel", 
+//     address : {
+//       city:"pune"
+//     }
+//   },
+//   {name:"Pawan", 
+//     address : {
+//       city:"pune"
+//     }
+
+//   },
+//   {name:"Hemant",
+//     address : {
+//       city:"lucknow"
+//     }
+//   },
+//   {
+//     name: "mohit",
+//     address:{
+//       city:"vadodara"
+//     }
+//   }
+// ]
+
+// let resul = {}
+
+// for(let elem of person){
+//     if(elem.address.city in resul){
+//         resul[elem.address.city].push(elem.name)
+//     }
+//     else{
+//       resul[elem.address.city]=[elem.name]
+//     }
+// }
+
+// console.log(resul)
+
+// o/p -> { pune: [ 'Abhishel', 'Pawan' ], Lucknow: [ 'Hemant' ] }
+
+// let {name:firstName} = person;
+
+// console.log(person)
+
+//Function Parameter
+
+// let user = {
+//   name:"sandeep",
+//   city:"pune"
+// }
+
+// function printCity({name,age}){
+//   console.log(user.name,user.city)
+// }
+
+// printCity(user)
+
+//REST operator
+
+//spread Operator ->
+
+// let person = {
+//   name:"sandeep",
+//   age:22
+// }
+
+// let user = {...person}
+
+// console.log(user)
+
+//shallow copy and deep copy 
+
+
+//Linear Search
+
+let person = [
+  {name:"sandeep",age:20},
+  {name:"shradha",age:22},
+]
+
+for(let element of person){
+
+  if(element.name = "sandeep"){
+
+    console.log("Present")
+
+  }
+  else{
+    console.log("not Present")
+  }
+}

@@ -187,3 +187,68 @@
 //   rl.close();
 // });
 
+//  let arr = [2,3,4,5,6]
+//  let arr2=[]
+//  for(let i = 0 ; i < arr.length ; i++){
+//     if(arr[i]==arr[0]){
+//         arr2.push(arr[i]*arr[i+1])
+//     }
+//     else if(arr[i]== arr[arr.length-1]){
+//         arr2.push(arr[i]*arr[i-1])
+//     }
+//     else{
+//         arr2.push(arr[i-1]*arr[i+1])
+//     }
+    
+// }
+// console.log(arr2)
+
+
+
+
+// -------------------------------------------------
+
+// // arr is the array of numbers, n is the number fo elements
+// function replaceArray(arr, n) {
+//   let arr2=[]
+//   for(let i = 0 ; i< arr.length ; i++){
+//     if(arr[i]== arr[0]){
+//       arr2.push(arr[i]*arr[i+1])
+//     }
+//     else if(arr[i]== arr[arr.length-1]){
+//       arr2.push(arr[i]*arr[i-1])
+//     }
+//     else{
+//       arr2.push(arr[i-1]*arr[i+1])
+//     }
+//     }
+  
+//   return arr2
+//   }
+// /*Do not change the code below */
+
+// var readline = require("readline").createInterface(process.stdin);
+
+// let inputArr = [];
+// var lineNumber = -1;
+// var inputSize;
+
+// //multipleline input from User
+// readline.on("line", readInputs);
+
+// function readInputs(line) {
+//   inputArr.push(line);
+//   lineNumber++;
+
+//   //Exit Condition
+//   if (lineNumber == 1) {
+//     logic("s");
+//     readline.close();
+//   }
+// }
+
+// function logic(input) {
+//   let n=parseInt(inputArr[0].trim());
+//   let Arr=inputArr[1].trim().split(" ").map(x=>parseInt(x));
+//   console.log(replaceArray(Arr, n).join(" ").trim());
+// }

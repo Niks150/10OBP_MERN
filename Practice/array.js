@@ -179,24 +179,24 @@
 // }
 // console.log(`Even count is ${evenCount} and odd count is ${oddCount}`)
 
-let arr = [8,7,56,4,8,5]
+// let arr = [8,7,56,4,8,5]
 
-let largest = 0;
-let secondLargest = 0;
+// let largest = 0;
+// let secondLargest = 0;
 
-for(let i = 0 ; i< arr.length; i++){
-    if(arr[i]>largest){
-        secondLargest = largest;
-        largest = arr[i]
-    }
-    else if(arr[i]>largest){
-        largest = arr[i]
-    }
-}
-
+// for(let i = 0 ; i< arr.length; i++){
+//     if(arr[i]>largest){
+//         secondLargest = largest;
+//         largest = arr[i]
+//     }
+//     else if(arr[i]>largest){
+//         largest = arr[i]
+//     }
 // }
-console.log(secondLargest);
-console.log(largest)
+
+// // }
+// console.log(secondLargest);
+// console.log(largest)
 
 
 //Question
@@ -237,3 +237,8 @@ console.log(largest)
 
 // console.log(longest)
 
+let arr = [2,3,4,5,6]
+
+for(let i = 0 ; i < arr.length ; i++){
+    console.log(arr[arr.length-1])
+}

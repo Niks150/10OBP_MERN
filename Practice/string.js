@@ -306,6 +306,19 @@
 // console.log(fullArr);
 
 
-let s = 68
+// let s = 68
 
-console.log(String.fromCharCode(s));
+// console.log(String.fromCharCode(s));
+
+let ch = 9
+
+if ((ch >= "A" && ch <= "Z") || (ch >= "a" && ch <= "z")){
+    console.log("Alphabet")
+
+}
+else if( ch >= 1 && ch <=9){
+    console.log("Digit")
+}
+else{
+    console.log("Symbol")
+}
