@@ -1,0 +1,18 @@
+ In  this file will learn about the comparison 
+
+ > In javaScript the + symbol use for the concatenation 
+ > 
+
+
+ string comparison with number
+
+
+ Number comparison with string
+
+
+ boolean with number
+
+
+ boolean with string
+
+

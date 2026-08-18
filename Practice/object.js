@@ -531,19 +531,220 @@
 
 //Linear Search
 
-let person = [
-  {name:"sandeep",age:20},
-  {name:"shradha",age:22},
-]
+// let person = [
+//   {name:"sandeep",age:20},
+//   {name:"shradha",age:22},
+// ]
 
-for(let element of person){
+// for(let element of person){
 
-  if(element.name = "sandeep"){
+//   if(element.name = "sandeep"){
 
-    console.log("Present")
+//     console.log("Present")
 
-  }
-  else{
-    console.log("not Present")
-  }
-}
+//   }
+//   else{
+//     console.log("not Present")
+//   }
+// }
+
+
+//consicutive pair of the sum 
+//  let  arr = [10,20,30,40,50]
+ 
+//  let count = 0;
+
+//  for(let i = 0 ; i < arr.length -1 ; i++){
+//   if(true){
+//     count++
+//   }
+//  }
+
+// console.log(count)
+
+// let user = [
+//   {name: "Abhishek" , age : 20 , address :{
+//     city: "pune"
+//   } },
+//   {name: "sandeep" , age : 22 , address :{
+//     city: "pune"
+//   } },
+//   {name: "Shraddha" , age : 20 , address :{
+//     city: "banglore"
+//   } },
+//   {name: "Abhishek" , age : 20 , address :{
+//     city: "pune"
+//   } }
+// ]
+
+// for(let result of user){
+//   if(result.address.city == "Pune"){
+//     result[result.address.city].push(result.name)
+//   }
+// }
+
+
+//  console.log(a)
+//  let a = 20  //access 'a' before initialization
+
+//student more than have 55% attendence and 
+// scored atleast 50% marks are passed print the array consisting of the name of the passed student 
+
+// let students = [
+//   {name:"shravan",attendence:"50%",makrks:35,totalMarks:78},
+//   {name:"Himanshu",attendence:"70%",makrks:40,totalMarks:90},
+//   {name:"Manak",attendence:"60%",makrks:50,totalMarks:100}
+// ]
+// let result = []
+
+// for(let student of students){
+
+//   let percentage = (student.makrks / student.totalMarks) * 100
+
+//   if(student.attendence > "55%" && percentage >=50)
+//   {
+//     result.push(student.name)
+//   }
+// }
+// console.log(result)
+
+//String Comperision 
+
+// let str1 = "125"
+// let str = "2"
+// console.log(str1>str) //false
+//===========================================================================//
+
+//Sorting method //
+
+//sort method is used to sort the array 
+
+// arr.sort 
+// Function used to determine the order of the elements. 
+// It is expected to return a negative value if the first argument is less than the second argument, 
+// zero if they're equal, and a positive value otherwise. 
+// If omitted, the elements are sorted in ascending, UTF-16 code unit order.
+// [11,2,22,1].sort((a, b) => a - b)
+// Sorts an array in place. This method mutates the array and returns a reference to the same array.
+
+//sort method first convert the number into strig then it checks Lexicographacelly then print the output 
+
+// let arr = [1,2,5,8,5,5]
+// arr.sort()
+// console.log(arr)
+
+// let arr = [0,1,2,8,74,12,45]
+// arr.sort()
+// console.log(arr)  //0,1,12,2,45,74,8
+
+//comperator operator
+
+// we use a-b for ascending order anf b-a for the descending order 
+
+// function comp(a,b){
+//   return a-b
+// }
+
+// let arr = [1,2,89,65,1]
+// arr.sort(comp)
+// console.log(arr)// [ 1, 1, 2, 65, 89 ]
+
+// function comp(a,b){
+//   return b-a
+// }
+
+// let arr = [1,2,8,9,5,4,7,8]
+// arr.sort(comp)
+// console.log(arr)// [9,8,8,7,5,4,2,1]
+
+// let arr = [{marks:9},{marks:19},{marks:1},{marks:18}]
+
+// function comp(a,b){
+//   return a.marks - b.marks
+// }
+
+// arr.sort(comp)
+
+// console.log(arr)
+
+// let persons = [{age:9},{age:19},{age:1},{age:18}]
+
+// function comp(a,b){
+//   return b.age - a.age
+
+// }
+
+// persons.sort(comp)
+
+// console.log(persons)
+
+
+// [i+1] = next 
+// [i-1] = pervious
+// [i] = present
+
+// let persons =[
+//   {name:"sanu",age:12},
+//   {name:"ruh",age:12},
+//   {name:"megha",age:15},
+// ]
+
+
+
+
+//sort it in acsending order of no of character of array
+
+// let arr = ["raman", "ram", "atul"];
+
+// function comp(a, b) {
+//     return a.length - b.length;
+// }
+
+// arr.sort(comp);
+
+// console.log(arr);
+
+
+//localeCompare : used to compare two string 
+//if a is lexicographacelly greater than b it returns -> 1
+//if b is lexicographacelly greater than a it returns -> -1
+//if a and b is lexicographacelly equal it returns -> 0
+
+//predict the output
+
+//Given the arr sort it to revese lexicographical order
+
+// let arr = ["raman", "ram", "atul"];
+
+// function comp(a,b){
+//    return b.localeCompare(a)
+// }
+
+// arr.sort(comp)
+// console.log(arr)
+
+// let student = [
+//   {name:"Abhishek",age:30},
+//   {name:"Akrit",age:45},
+//   {name:"aansh",age:45}
+// ]
+
+// function comp(a,b){
+//   if(a.age != b.age){
+//     return a.age - b.age
+//   }
+//   else
+//    return a.name.localeCompare(b.name) // for to compare two string we use localeCompre        
+// }
+// student.sort(comp)
+// console.log(student)
+
+// let student = [
+//   {name:"Abhishek",age:30},
+//   {name:"Akrit",age:45},
+//   {name:"aansh",age:45}
+// ]
+
+// let result = Object.keys(student)
+
+// console.log(result)
