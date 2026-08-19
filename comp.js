@@ -1,5 +1,8 @@
 //comparision
 
+const { constants } = require("buffer")
+const { type } = require("os");
+const { deprecate } = require("util");
 const { isNumberObject } = require("util/types")
 
 // let a = "10"
@@ -303,4 +306,85 @@ const { isNumberObject } = require("util/types")
 // gst = total * 18 / 100
 // final = total + gst
 // console.log(`Sub total : ${total} , discount : ${discount} , After discount : ${final}`)
+
+// ===================Comparison learning ===================//
+
+// let score = 33
+// console.log(typeof score) //number
+
+// let score = "33"
+// console.log(typeof score) //string
+
+// let a = 10
+// let b = "10"
+// console.log(a+b) // + used for the concate in js
+
+// let a = 10
+// let b = "10"
+// console.log(a-b) // except + if we perfom *,/,- the string convert into number 
+
+// let a = "20"
+// let b = "10"
+// console.log((a-b))// In this when we perform the - the string convert into number
+
+// let a = true
+// let b = 10
+// console.log(a-b) // in this boolen convert into the number //-9
+
+// let a = true
+// let b = 10
+// console.log(a+b) // if we perform + with boolean and number the boolean convert into number and perform addition 
+
+// let a = true
+// let b = "false"
+// console.log(a+b)  // whenever we use the string and perform the + the string concate the result
+
+// let a = undefined
+// let b = 11
+// console.log(a+b) //NaN
+
+// let a = null;
+// let b = 11
+// console.log(a+b) //11
+
+// let a = null
+// let b = null
+// console.log(a+b) //0
+
+// let a = "11"
+// let b = "11"
+// console.log(a*b) //121 // String convert into the number
+
+// for to use the Power we use the two **
+// let a = 2
+// console.log(a**a) //4
+
+//===================Scope ==============
+//===========//================
+// console.log(addTwo(5))  // Refernce error
+// const addTwo = function(num){ => Expression 
+
+//     return num + 1
+// }
+
+// // console.log(addTwo(5)) //6
+
+
+// console.log(addOne(4)) //5
+// function addOne(num){ => Function 
+//     return num + 1
+// }
+// // console.log(addOne(4)) //5
+
+// Mock Practice
+
+
+
+
+
+
+
+
+
+
 
