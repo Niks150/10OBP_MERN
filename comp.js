@@ -1,9 +1,6 @@
 //comparision
 
-const { constants } = require("buffer")
-const { type } = require("os");
-const { deprecate } = require("util");
-const { isNumberObject } = require("util/types")
+
 
 // let a = "10"
 // let b = 10
@@ -378,13 +375,35 @@ const { isNumberObject } = require("util/types")
 
 // Mock Practice
 
+//These are my weak point to learn 
+//TDZ => Temporal Dead Zone 
+//Short Circut 
+//Difference Btwn Var,Const and let 
+//All methods of the string and Array 
+//Object methods // . notation and [] notation 
+//How to perform sum,count,avg, how to find last digit
+//How to reverse a number //sum of number 
 
+// let n = 12354
+ 
+// let sum = 0;
 
+// while(n != 0){
+    
+//     let last_digit = n % 10
+//     sum += last_digit
+//     n= Math.floor(n/10)
 
+// }
 
+// console.log(sum)
 
+// let arr = [1,2,3]
 
-
-
-
-
+// for(let i = 0 ; i< arr.length ; i++){
+//     if(arr[i]%2===0){
+//         console.log(arr[i])
+//     }
+//     else
+//         console.log(-1)
+// }
