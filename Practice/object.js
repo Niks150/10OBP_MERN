@@ -102,18 +102,18 @@
 //   console.log(key,person[key])
 // }
 
-// let person = {
-//   firstName : "sandeep",
-//   age : 20,
-//   city: "Pune",
-//   salery : 3000
-// }
-// let count = 0;
+let person = {
+  firstName : "sandeep",
+  age : 20,
+  city: "Pune",
+  salery : 3000
+}
+let count = 0;
 
-// for( let key in person){
-//   count++
-// }
-// console.log(count)
+for( let key in person){
+  count++
+}
+console.log(count)
 
 //No of key which have some value 
 
@@ -714,14 +714,14 @@
 
 //Given the arr sort it to revese lexicographical order
 
-// let arr = ["raman", "ram", "atul"];
+let arr = ["raman", "ram", "atul"];
 
-// function comp(a,b){
-//    return b.localeCompare(a)
-// }
+function comp(a,b){
+   return a.localeCompare(b)
+}
 
-// arr.sort(comp)
-// console.log(arr)
+arr.sort(comp)
+console.log(arr)
 
 // let student = [
 //   {name:"Abhishek",age:30},
@@ -748,3 +748,4 @@
 // let result = Object.keys(student)
 
 // console.log(result)
+

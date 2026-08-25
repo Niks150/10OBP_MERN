@@ -57,3 +57,29 @@
 // console.log(`largest is ${largest} and seondlargest is ${second_largest}`)
 
 
+// let arr = [1,2,5,4,5,4,2,1,1]
+
+// let frequency = {}
+
+// for(let i = 0 ; i< arr.length ; i ++){
+//     if(arr[i] in frequency){
+//         frequency[arr[i]]++
+//     }
+//     else{
+//         frequency[arr[i]] = 1
+//     }
+// }
+// console.log(frequency)
+
+// let largestFrequency = 0
+// let mostFrequentNumber =  0
+
+// for(let freq in frequency){
+//     if(frequency[freq] > largestFrequency)
+//         {
+//             largestFrequency = frequency[freq]
+//             mostFrequentNumber = freq// here i print the key
+//     }
+// }
+// console.log(largestFrequency)
+// console.log(mostFrequentNumber)
