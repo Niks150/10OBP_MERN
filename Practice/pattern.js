@@ -140,3 +140,13 @@
 // 123
 // 1234
 
+let  n = 10
+
+for(let i = 0 ; i < n ; i++){
+    let str = ""
+    for(let j = 1 ; j <=2*(n-i-1)+1; j++){
+        str+="*"
+
+    }
+    console.log(str)
+}
