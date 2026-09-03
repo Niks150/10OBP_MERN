@@ -205,3 +205,162 @@
 
 // console.log(department)
 
+
+// const products = [
+//  { name: "Laptop", category: "Electronics", price: 60000 },
+//  { name: "Mobile", category: "Electronics", price: 25000 },
+//  { name: "Shirt", category: "Clothing", price: 1500 },
+//  { name: "Jeans", category: "Clothing", price: 2000 },
+//  { name: "Apple", category: "Grocery", price: 150 },
+//  { name: "Milk", category: "Grocery", price: 60 }
+// ];
+
+
+// let categoryWiseProducts = {};
+
+// for(let product of products){
+//     if(product.category in categoryWiseProducts){
+//         categoryWiseProducts[product.category].push(product.name)
+//     }
+//     else{
+//         categoryWiseProducts[product.category] = [product.name]
+//     }
+// }
+// console.log(categoryWiseProducts)
+
+// 1
+// 1 2
+// 1 2 3
+// 1 2 3 4
+// 1 2 3 4 5
+
+// let n = 5
+
+// for(let row = 1 ; row <= n ; row++){
+//     let str = ""
+//     for(let col = 1 ; col <= row ; col++){
+//         str+=col + " "
+//     }
+//     console.log(str)
+// }
+
+// 1
+// 2 2
+// 3 3 3
+// 4 4 4 4
+// 5 5 5 5 5
+
+// let n = 5
+
+// for(let row = 1 ; row <= n ; row++){
+//     let str = ""
+//     for(let col = 1 ; col <= row ; col++){
+//         str+=row + " "
+//     }
+//     console.log(str)
+// }
+
+
+//       * 
+//      * * 
+//     * * * 
+//    * * * * 
+//   * * * * * 
+//  * * * * * * 
+// * * * * * * * 
+// let n = 7
+
+// for(let row = 1 ; row <= n ; row++){
+//     let str = ""
+
+//     //space
+
+// for(let space = 1 ; space <= n-row ; space++){
+//     str+=" "
+// }
+
+// //column
+
+// for(let col = 1 ; col <= row ; col++){
+//     str+="* "
+// }
+// console.log(str)
+// }
+
+
+//       * 
+//      * * 
+//     * * * 
+//    * * * * 
+//   * * * * * 
+//  * * * * * * 
+// * * * * * * * 
+// * * * * * * * 
+//  * * * * * * 
+//   * * * * * 
+//    * * * * 
+//     * * * 
+//      * * 
+//       * 
+// let n = 7
+
+// function pattern(n){
+//     for(let row = 1 ; row <= n ; row++){
+//     let str = ""
+
+//     //space
+
+// for(let space = 1 ; space <= row ; space++){
+//     str+=" "
+// }
+
+// //column
+
+// for(let col = 1 ; col <= (n-row+1) ; col++){
+//     str+="* "
+// }
+// console.log(str)
+// }
+// }
+// function pattern2(n){
+//     for(let row = 1 ; row <= n ; row++){
+//     let str = ""
+
+//     //space
+
+// for(let space = 1 ; space <= n-row ; space++){
+//     str+=" "
+// }
+
+// //column
+
+// for(let col = 1 ; col <= row ; col++){
+//     str+="* "
+// }
+// console.log(str)
+// }
+// }
+
+
+// pattern2(n)
+// pattern(n)
+
+
+// // 1
+// // 0 1
+// // 1 0 1
+// // 0 1 0 1
+// // 1 0 1 0 1
+
+// let n = 5
+
+// for(let row = 0 ; row <= n ; row++){
+//     let str = ""
+
+//     for(let col = 1 ; col <= row ; col++){
+//         str+= (col % 2 === 1 ? 1 : 0) + " "
+//     }
+// console.log(str)
+// }
+
+

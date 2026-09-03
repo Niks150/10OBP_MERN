@@ -1,5 +1,6 @@
 // let n = 5
 
+
 // for(let i = 1 ; i <=4 ; i++){
 //         let row = ""
 //             for(let j = 0; j < i ; j++){
@@ -326,3 +327,12 @@
 //     console.log(str)
 // }
 
+// let n = 5
+
+// for(let row = 1 ; row <= n ; row++){
+//     let str = ""
+//     for(let col = 1 ; col <= row ; col++){
+//         str+=row+col-2
+//     }
+//     console.log(str)
+// }
