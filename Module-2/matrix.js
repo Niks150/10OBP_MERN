@@ -257,15 +257,61 @@
 
 //given a string find all the substring of lenght k
 
-let str = [1,2,3,4]
+// let str = [1,2,3,4]
 
-let count = 0
-for(let i = 0 ; i < str.length-1 ; i++){
-    let substring = []
+// let count = 0
+// for(let i = 0 ; i < str.length-1 ; i++){
+//     let substring = []
 
-        for(let j = i ; j < i; j++){
-       substring.push(str)
-        }
-        console.log(substring)
-    }
-console.log(count)
+//         for(let j = i ; j < i; j++){
+//        substring.push(str)
+//         }
+//         console.log(substring)
+//     }
+// console.log(count)
+
+
+//boundry traversal 
+
+//spiral matrix
+// let mat = [
+//     [1, 4, 7],
+//     [2, 5, 8],
+//     [3, 6, 9]
+// ];
+
+// let left = 0,
+//     right = mat[0].length - 1,
+//     top = 0,
+//     bottom = mat.length - 1;
+
+// while (top <= bottom && left <= right) {
+
+//     // left to right - top row
+//     for (let k = left; k <= right; k++) {
+//         console.log(mat[top][k]);
+//     }
+//     top++;
+
+//     // top to bottom - right column
+//     for (let k = top; k <= bottom; k++) {
+//         console.log(mat[k][right]);
+//     }
+//     right--;
+
+//     // right to left - bottom row
+//     if (top <= bottom) {
+//         for (let k = right; k >= left; k--) {
+//             console.log(mat[bottom][k]);
+//         }
+//         bottom--;
+//     }
+
+//     // bottom to top - left column
+//     if (left <= right) {
+//         for (let k = bottom; k >= top; k--) {
+//             console.log(mat[k][left]);
+//         }
+//         left++;
+//     }
+// }
