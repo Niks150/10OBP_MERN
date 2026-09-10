@@ -220,10 +220,10 @@
 
 // let top = 0 ;
 // let right = arr[0].length-1;
-// let bottom= arr[0].length-1;
+// let bottom= arr.length-1;
 // let left = 0
 
-// // left to right for the top row
+// while(top<=bottom && left<=right){// left to right for the top row
 // for(let k = left ; k <= right ; k++){
 //     console.log(arr[top][k])
 // }
@@ -231,22 +231,24 @@
 
 // //top to bottom for right row
 // for(let k = top ; k <= bottom ; k++){
-//     console.log(arr[right][k])
+//     console.log(arr[k][right])
 // }
-// right++
+// right--
 
+// if(top<=bottom){
 // for(let k = right ; k >= left ; k--){
 //     console.log(arr[bottom][k])
 // }
 // bottom--
+// }
 
-
+// if(left<=right){
 // //bottom to top for left col
 // for(let k = bottom ; k >= top ; k--){
 //     console.log(arr[k][left])
 // }
-// left--
-
+// left++}
+// }
 //ssubarray or substring
 
 // let arr = [1,2,3,4]

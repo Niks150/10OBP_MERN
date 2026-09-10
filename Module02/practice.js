@@ -371,3 +371,47 @@
     
 // console.log(n)
 // }
+
+
+// let arr = [
+//     [1,2,3,5],
+//     [4,5,6,6],
+//     [7,8,9,9]
+// ];
+
+// let left = 0;
+// let right = arr[0].length - 1;
+// let top = 0;
+// let bottom = arr.length - 1;
+
+// while(top <= bottom && left <= right) {
+
+//     // top row →
+//     for(let k = left; k <= right; k++){
+//         console.log(arr[top][k]);
+//     }
+//     top++;
+
+//     // right column ↓
+//     for(let k = top; k <= bottom; k++){
+//         console.log(arr[k][right]);
+//     }
+//     right--;
+
+//     // bottom row ←
+//     if(top <= bottom){
+//         for(let k = right; k >= left; k--){
+//             console.log(arr[bottom][k]);
+//         }
+//         bottom--;
+//     }
+
+//     // left column ↑
+//     if(left <= right){
+//         for(let k = bottom; k >= top; k--){
+//             console.log(arr[k][left]);
+//         }
+//         left++;
+//     }
+// }
+
