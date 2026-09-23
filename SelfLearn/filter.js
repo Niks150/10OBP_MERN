@@ -121,3 +121,87 @@
 
 // let sumOfCart = shoppingCart.reduce( (acc,currvalue) => acc+ currvalue.price ,0 )
 //  console.log(sumOfCart)
+
+
+
+//Map
+
+// let arr = [2,3,4,5,6]
+
+// let newArr = arr.map( (nums) => nums*3)
+
+// console.log(newArr)
+
+// // add 28% gst to the new products
+
+// let arr = [2,4,5,6]
+
+// let newArr = arr.map( (nums) => {
+//     return nums*28/100
+// })
+// console.log(newArr)
+
+//return an array containing all the student information along with the iseligible truee or false
+//marks > 40 and age > 20 then onluy eligible
+
+// let transform = [
+//     {
+//         name: "sandeep",
+//         age:22,
+//         marks:50
+//     },
+//     {
+//         name: "mohit",
+//         age:20,
+//         marks:20
+//     },
+//     {
+//         name: "ayush",
+//         age:15,
+//         marks:26
+//     }
+// ]
+
+// let newArr =transform.map( (nums) => {
+//     return {...nums,
+//     isEligible : nums.age > 20 && nums.marks>40
+//     }
+// })
+// console.log(newArr)
+
+
+// let arr = [1,2,3,4,5]
+
+// let newArr = arr.map( (nums,index) =>
+
+// {    return [nums,index] }
+// )
+// console.log(newArr)
+
+// let newArr = arr.filter( (nums) => nums%2==0)
+
+// console.log([newArr])
+
+// let transform = [
+//     {
+//         name: "sandeep",
+//         age:22,
+//         marks:50
+//     },
+//     {
+//         name: "mohit",
+//         age:20,
+//         marks:20
+//     },
+//     {
+//         name: "ayush",
+//         age:15,
+//         marks:26
+//     }
+// ]
+
+// let newArr = transform.filter( (nums) => {
+//     return (nums.age > 20)
+// })
+
+// console.log(newArr)
